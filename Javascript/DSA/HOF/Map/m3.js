@@ -20,14 +20,12 @@ console.log("Initials:", initials);
 
 
 
-
-function getI (name){
-    const w = name.split(' ')
-    const ini = w.map((word)=> word.charAt(0))
-    return ini
+function mouse (aie){
+    const baba = aie.split( " ")
+    const gargi = baba.map(mi => mi.charAt(0))
+    return gargi 
 }
 
-const fllName = "sahil korade"
-const result = getI(fllName)
-console.log(result);
-
+const miRattakli = "hirvya panat chad chad challi"
+const hirvyaPanat = mouse(miRattakli)
+console.log(hirvyaPanat);
