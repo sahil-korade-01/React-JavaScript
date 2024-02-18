@@ -87,30 +87,57 @@
 
 
 
-function oddNumber (number) {
-    const eNumber = number.filter(num => num %2 !==0)
-    return eNumber
+// function oddNumber (number) {
+//     const eNumber = number.filter(num => num %2 !==0)
+//     return eNumber
+// }
+
+// const newArr = [1,2,3,3,4,]
+// const result = oddNumber(newArr)
+// console.log(`the value of odd number is ${result}`);
+
+
+
+
+
+
+
+
+
+
+
+
+// function evenNumber(num){
+//     const eNumber = num.filter(n =>n %2===0)
+//     return eNumber
+// }
+//  const newArray=[1,2,4,5,6,7,8,9]
+//  const result1 = evenNumber(newArray)
+//  console.log(`the even number in this given array is ${result1}`);
+
+
+
+
+
+
+function oddNumber (number){
+    const oddNum = number.filter(num => num % 2 !==0)
+    return oddNum
 }
-
-const newArr = [1,2,3,3,4,]
-const result = oddNumber(newArr)
-console.log(`the value of odd number is ${result}`);
-
+const arr = [1,2,3,4,5,6,7,8,9]
+const result = oddNumber(arr)
+console.log(`The odd number is [${result}]`);
 
 
 
 
 
 
-
-
-
-
-
-function evenNumber(num){
-    const eNumber = num.filter(n =>n %2===0)
-    return eNumber
+function evenNumber (number)
+{
+    const evenNum = number.filter(num => num % 2===0)
+    return evenNum
 }
- const newArray=[1,2,4,5,6,7,8,9]
- const result1 = evenNumber(newArray)
- console.log(`the even number in this given array is ${result1}`);
+ const arr1 = [,1,3,5,7,9,84,33,55,50]
+ const result1 = evenNumber(arr1)
+ console.log(`even number is [${result1}]`);

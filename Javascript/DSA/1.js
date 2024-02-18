@@ -67,13 +67,27 @@
 
 
 
-  function missingNumber (arr){
-    const n = 10 
+  // function missingNumber (arr){
+  //   const n = 10 
+  //   const sum = (n*(n+1))/2
+  //   const totalSum = arr.reduce((result , currentElement) => result + currentElement)
+  //   return sum - totalSum
+  // }
+
+  // const newArr = [1,2,3,4,5,6,7,8,10]
+  // const result = missingNumber(newArr)
+  // console.log(`the missing value is in this array is ${result}`);
+
+
+
+
+  function missingNumber (num){
+    const n= 10
     const sum = (n*(n+1))/2
-    const totalSum = arr.reduce((result , currentElement) => result + currentElement)
-    return sum - totalSum
+     const  totalSum = num.reduce((result , currentElement) => result + currentElement)
+     return sum - totalSum
   }
 
-  const newArr = [1,2,3,4,5,6,7,8,10]
-  const result = missingNumber(newArr)
-  console.log(`the missing value is in this array is ${result}`);
+   const newArray = [1,2,3,4,5,6,7,8,9]
+   const result = missingNumber(newArray)
+   console.log(`The missing number in this array is ${result}`);

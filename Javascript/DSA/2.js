@@ -19,6 +19,11 @@
 
 
 
-const arr = [1,2,3,4,5,6]
-console.log(`the maximum number is ${Math.max(...arr)}`);
-console.log(`the minimum number in this array is ${Math.min(...arr)}`);
+// const arr = [1,2,3,4,5,6]
+// console.log(`the maximum number is ${Math.max(...arr)}`);
+// console.log(`the minimum number in this array is ${Math.min(...arr)}`);
+
+
+ const arr = [1,2,3]
+ console.log(`The max Number in this array is ${Math.max(...arr)}`);
+ console.log(`The minimum number in this array is ${Math.min(...arr)}`);

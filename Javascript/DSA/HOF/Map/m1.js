@@ -10,3 +10,9 @@
 const number = [34,56,78,90]
 const a = number.map(num => num ** 2)
 console.log(`the square of the follwing array is [${a}]`);
+
+
+const numbers = [1,2,3,4]
+const a1 = numbers.map(num => num ** 2)
+console.log(a1);
+

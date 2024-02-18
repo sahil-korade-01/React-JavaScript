@@ -101,16 +101,32 @@ else{
 
 
 
-function isPalindrom (num ){
-    const numb = num.toString()
-    return numb ===numb.split("").reverse().join("")
+// function isPalindrom (num ){
+//     const numb = num.toString()
+//     return numb ===numb.split("").reverse().join("")
+
+// }
+
+// const newNumber = 123
+// if(isPalindrom(newNumber)){
+//     console.log(`the ${newNumber} is palindrom`);
+// }
+// else{
+//     console.log(`the ${newNumber} is not palindrom`);
+// }
+
+
+
+function isPalindrom   (num){
+    const isN = num.toString()
+    return isN ===isN.split("").reverse().join("")
 
 }
 
-const newNumber = 123
-if(isPalindrom(newNumber)){
-    console.log(`the ${newNumber} is palindrom`);
+const number = 1234
+if(isPalindrom(number)){
+    console.log(`the ${number} is palindrom `);
 }
 else{
-    console.log(`the ${newNumber} is not palindrom`);
+    console.log(`the ${number} is not palindrom `);
 }

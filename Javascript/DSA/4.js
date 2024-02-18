@@ -84,26 +84,50 @@
 
 
 
-function revString (str){
-    const rStr = str.split("").reverse().join("")
-    return rStr
-}
-const newString = 'sahilkorade'
-const result = revString(newString)
-console.log(`the reverse string is ${result}`);
+// function revString (str){
+//     const rStr = str.split("").reverse().join("")
+//     return rStr
+// }
+// const newString = 'sahilkorade'
+// const result = revString(newString)
+// console.log(`the reverse string is ${result}`);
 
 
 
 
 
-function revNumber (num ){
-    const revN = num.toString()
-    return revN.split("").reverse().join("")
+// function revNumber (num ){
+//     const revN = num.toString()
+//     return revN.split("").reverse().join("")
 
     
+// }
+
+//  const newNumber = 9293939393939
+//  const result1 = revNumber(newNumber)
+//  console.log(`the reverse number is ${result1}`);
+
+
+
+
+// function number (num){
+//     const isN = num.toString()
+//     return isN.split("").reverse().join("")
+
+// }
+// const revNumber = 123456789
+// const result = number(revNumber)
+// console.log(result);
+
+
+
+function revString (str){
+    return str.split("").reverse().join("")
+
 }
 
- const newNumber = 9293939393939
- const result1 = revNumber(newNumber)
- console.log(`the reverse number is ${result1}`);
+const newString = "lihas"
+const result = revString(newString)
+console.log(result);
+
 
