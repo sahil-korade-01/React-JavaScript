@@ -37,18 +37,80 @@
 
 
 
-function isPalindrome(str) {
-    // Remove non-alphanumeric characters and convert to lowercase
+// function isPalindrome(str) {
+//     // Remove non-alphanumeric characters and convert to lowercase
   
-    // Compare the original cleaned string with its reverse
-    return str === str.split('').reverse().join('');
-  }
+//     // Compare the original cleaned string with its reverse
+//     return str === str.split('').reverse().join('');
+//   }
   
-  // Example usage:
-  const testString = "saas";
-  if (isPalindrome(testString)) {
-    console.log(`${testString} is a palindrome.`);
-  } else {
-    console.log(`${testString} is not a palindrome.`);
-  }
+//   // Example usage:
+//   const testString = "saas";
+//   if (isPalindrome(testString)) {
+//     console.log(`${testString} is a palindrome.`);
+//   } else {
+//     console.log(`${testString} is not a palindrome.`);
+//   }
+
+
+// function    isPalindrom (str){
+//      return str === str.split("").reverse().join("")
+// }
+
+//  const  newString = "korade"
+//  if(isPalindrom(newString)){
+//     console.log(`the given string is palindrom ${newString}`);
+//  }
+//  else{
+//     console.log(`the given string is not palindrom ${newString}`);
+//  }
   
+
+
+
+
+function isPalindrom (str){
+   return str === str.split("").reverse().join("")
+
+}
+const newString = "chima"
+if(isPalindrom(newString)){
+    console.log(`the "${newString}" string is palindrom `);
+}
+else{
+    console.log(`the "${newString}" string is not palindrom`);
+}
+
+
+
+// function   ispalindrom (num ){
+//     const nump = num.toString()
+//     return nump === nump.split("").reverse().join("")
+
+
+// }
+
+// const newNumber = 121
+// if(ispalindrom(newNumber)){
+//     console.log(`the ${newNumber} number is palindrom `);
+
+// }
+// else{
+//     console.log(`the ${newNumber} number is not palindrom`);
+// }
+
+
+
+function isPalindrom (num ){
+    const numb = num.toString()
+    return numb ===numb.split("").reverse().join("")
+
+}
+
+const newNumber = 123
+if(isPalindrom(newNumber)){
+    console.log(`the ${newNumber} is palindrom`);
+}
+else{
+    console.log(`the ${newNumber} is not palindrom`);
+}
